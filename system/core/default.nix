@@ -37,16 +37,6 @@
   };
 
   environment = {
-    systemPackages = with pkgs; [
-      libnotify
-      xdg-utils
-      polkit_gnome
-      man-pages
-      glib
-      gsettings-desktop-schemas
-      inputs.rose-pine-hyprcursor.packages.${pkgs.system}.default
-      rose-pine-cursor
-    ];
     shellAliases = { };
   };
 
