@@ -6,5 +6,6 @@
     ./virtualization.nix
     ./power.nix
     ./printing.nix
+    ./ssh.nix
   ];
 }
